@@ -1,0 +1,164 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; 
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://img.freepik.com/free-vector/flat-abstract-doodle-background_23-2149337653.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1726963200&semt=ais_hybrid');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 350px;
+    position: relative;
+    z-index: 1; 
+
+h1 {
+    color: #00796b; 
+}
+
+input[type="text"], input[type="datetime-local"] {
+    width: 85%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #4db6ac; 
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, input[type="datetime-local"]:focus {
+    border-color: #00796b; 
+    outline: none;
+}
+
+button {
+    background-color: #ffb74d; 
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff8f00; 
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ffe082; 
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #ffd54f; 
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.edit-btn, .delete-btn {
+    background-color: #64b5f6; 
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.edit-btn:hover {
+    background-color: #42a5f5; 
+}
+
+.delete-btn {
+    background-color: #ef5350; 
+}
+
+.delete-btn:hover {
+    background-color: #e53935; 
+}
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.5s;
+}
+}
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 350px;
+    position: relative;
+    z-index: 1; 
+}
+
+body.winter {
+    background-color: #e0f7fa;
+    background-image: url('https://images.pexels.com/photos/1797113/pexels-photo-1797113.jpeg?cs=srgb&dl=pexels-chaitaastic-1797113.jpg&fm=jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+body.summer {
+    background-color: #fffde7;
+    background-image: url('https://img.freepik.com/premium-photo/field-with-blue-sky-clouds-background_1120824-2687.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+body.rainy {
+    background-color: #e3f2fd;
+    background-image: url('https://img.freepik.com/free-photo/rainbow-end-road-landscape_23-2151596707.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: rgb(48, 142, 48);
+}
+
+.complete-btn {
+    background-color: #66bb6a; 
+    border: none;
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.complete-btn:hover {
+    background-color: #358e3a; 
+}
